@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/272.ad2ab546.chunk.js","mappings":"iMAAe,SAASA,IAEtB,OACE","sources":["components/ErrorPage.jsx"],"sourcesContent":["export default function ErrorPage() {\r\n\r\n  return(\r\n    <h1>Error, result not found. Try again.</h1>\r\n  )\r\n}"],"names":["ErrorPage"],"sourceRoot":""}
