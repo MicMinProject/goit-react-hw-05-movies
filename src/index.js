@@ -29,6 +29,7 @@ ReactDOM.render(
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
+              backgroundColor: '#e0e0e0',
             }}
           >
             <Triangle
@@ -41,15 +42,15 @@ ReactDOM.render(
         }
       >
         <Routes>
-          <Route path="" element={<App />}>
-            <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<App />}>
+            <Route index element={<HomePage />}/>
             <Route path="movies" element={<MoviesPage />}>
               <Route path=":movieId" element={<MovieDetailsPage />}>
                 <Route path="cast" element={<Cast />} />
                 <Route path="review" element={<Review />} />
               </Route>
             </Route>
-            <Route path="*" element={<ErrorPage />} />
+            <Route path="*" element={<HomePage />} />
           </Route>
         </Routes>
       </Suspense>

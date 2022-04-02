@@ -174,7 +174,6 @@ export default function MovieDetailsPage() {
           width: '100%',
           paddingTop: '30px',
           paddingBottom: '30px',
-          marginBottom: '30px',
           paddingLeft: '20px',
           borderBottom: 'solid 2px',
         }}
@@ -212,6 +211,7 @@ export default function MovieDetailsPage() {
       <div
         css={{
           backgroundColor: '#e0e0e0',
+          paddingTop: '30px',
         }}
       >
         <Outlet />

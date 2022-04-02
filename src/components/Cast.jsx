@@ -76,7 +76,7 @@ function Cast() {
               </p>
             </li>
           ))
-        : 'null'}
+        : null}
     </ul>)
   );
 }

@@ -35,16 +35,16 @@ export const App = () => {
           }}
           to="/"
         >
-          Home
+          Home 
         </NavLink>
-        {' | '}
+        {'|'}
         <NavLink
           style={({ isActive }) => {
             return { color: isActive ? 'red' : '' };
           }}
           to="/movies"
         >
-          Movies
+           Movies
         </NavLink>
       </nav>
       <Outlet />
