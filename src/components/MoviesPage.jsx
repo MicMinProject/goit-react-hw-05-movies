@@ -47,7 +47,7 @@ function MoviesPage() {
             <button type="submit">Search</button>
           </form>
 
-          {searchResult !== null ? (
+          
             <ul css={{ listStyleType: 'none' }}>
               {searchResult.map(movie => (
                 <li key={movie.id}>
@@ -55,9 +55,7 @@ function MoviesPage() {
                 </li>
               ))}
             </ul>
-          ) : (
-            <p>No titles found</p>
-          )}
+          
         </>
       ) : (
         <Outlet />
